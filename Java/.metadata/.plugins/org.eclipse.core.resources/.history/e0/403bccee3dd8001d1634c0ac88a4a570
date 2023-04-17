@@ -1,0 +1,21 @@
+package chap97_practice;
+
+public class practice230411 {
+
+	public static void main(String[] args) {
+		
+		int a = 5;
+		int b = 20;
+		
+		int gdc = 1;
+		
+		if(b > a) {
+			for(int i = 0; i < a; i++) {
+				if(a / b == 0) {
+					gdc = i;
+				}
+			}
+			System.out.println(gdc);
+		}
+	}
+}

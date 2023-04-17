@@ -1,0 +1,21 @@
+package chap97_practice;
+
+public class Group230411 {
+
+	public static void main(String[] args) {
+		
+		String[] participant = new String[1000000];
+		String[] completion = new String[99999];
+		
+		String result = "";
+		
+		for(int i = 0; i < completion.length; i++) {
+			if(participant[i].contains(completion[i])) {
+				result = participant[i].toSting() - completion[i].toString();
+			}
+							
+				
+		}
+	}
+
+}

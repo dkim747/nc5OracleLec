@@ -1,0 +1,30 @@
+package chap97_practice;
+
+import java.util.Scanner;
+
+public class practice230411 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		int gdc = 1;
+		
+		if(b > a) {
+			for(int i = 1; i <= a; i++) {
+				if(a % b == 0 && gdc != 1) {
+					gdc = i;
+					
+				}
+				System.out.println(gdc);
+			}
+			
+		}
+		
+	}
+	
+}
